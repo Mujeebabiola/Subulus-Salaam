@@ -1,0 +1,47 @@
+.BigMessage {
+  font-size: 300%;
+  font-family: serif;
+  border: 1px solid #4caf50;
+}
+
+body {
+  background: rgba(249, 245, 232, 255);
+}
+.green {
+  background: #00715d;
+  height: 100%;
+}
+
+/* Trying to use the Footer, the code starts from here */
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: rgba(34, 34, 34, 255);
+  text-align: center;
+  color: white;
+}
+/**
+ * Footer Styles, the code ends here
+ */
+.jumbotron {
+  background: rgba(249, 245, 232, 255);
+}
+.link {
+  color: white;
+}
