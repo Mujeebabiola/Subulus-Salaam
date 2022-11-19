@@ -22,7 +22,7 @@ function Navbar() {
             className="navbar-brand"
             style={{
               fontSize: "20px",
-              color: "white"
+              color: "white",
             }}
           >
             <Link className="link" to="/">
@@ -43,7 +43,8 @@ function Navbar() {
           {/* Keep somethings here */}
         </div>
       </nav>
-      <div style={{ paddingBottom: "25px" }}></div>
+      <div style={{ paddingBottom: "50px" }}></div>
+      <div />
     </div>
   );
 }
